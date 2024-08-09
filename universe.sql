@@ -294,45 +294,43 @@ INSERT INTO public.galaxy VALUES (6, 'Pinwheel', 'Large galaxy with extensive ar
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.moon VALUES (1, 1, 'moon1', 500, 750, 1500.75, 'solid', true, true);
-INSERT INTO public.moon VALUES (2, 2, 'moon2', 600, 850, 1600.50, 'gaseous', false, true);
-INSERT INTO public.moon VALUES (3, 3, 'moon3', 700, 950, 1700.25, 'liquid', true, false);
-INSERT INTO public.moon VALUES (4, 4, 'moon4', 800, 1050, 1800.00, 'solid', true, true);
-INSERT INTO public.moon VALUES (5, 5, 'moon5', 900, 1150, 1900.75, 'solid', false, true);
-INSERT INTO public.moon VALUES (6, 6, 'moon6', 1000, 1250, 2000.50, 'gaseous', true, false);
-INSERT INTO public.moon VALUES (7, 1, 'moon7', 500, 750, 1500.75, 'solid', true, true);
-INSERT INTO public.moon VALUES (8, 2, 'moon8', 600, 850, 1600.50, 'gaseous', false, true);
-INSERT INTO public.moon VALUES (9, 3, 'moon9', 700, 950, 1700.25, 'liquid', true, false);
-INSERT INTO public.moon VALUES (10, 4, 'moon10', 800, 1050, 1800.00, 'solid', true, true);
-INSERT INTO public.moon VALUES (11, 5, 'moon11', 900, 1150, 1900.75, 'solid', false, true);
-INSERT INTO public.moon VALUES (12, 6, 'moon12', 1000, 1250, 2000.50, 'gaseous', true, false);
-INSERT INTO public.moon VALUES (13, 1, 'moon13', 500, 750, 1500.75, 'solid', true, true);
-INSERT INTO public.moon VALUES (14, 2, 'moon14', 600, 850, 1600.50, 'gaseous', false, true);
-INSERT INTO public.moon VALUES (15, 3, 'moon15', 700, 950, 1700.25, 'liquid', true, false);
-INSERT INTO public.moon VALUES (16, 4, 'moon16', 800, 1050, 1800.00, 'solid', true, true);
-INSERT INTO public.moon VALUES (17, 5, 'moon17', 900, 1150, 1900.75, 'solid', false, true);
-INSERT INTO public.moon VALUES (18, 6, 'moon18', 1000, 1250, 2000.50, 'gaseous', true, false);
-INSERT INTO public.moon VALUES (19, 1, 'moon19', 500, 750, 1500.75, 'solid', true, true);
-INSERT INTO public.moon VALUES (20, 2, 'moon20', 600, 850, 1600.50, 'gaseous', false, true);
-
+INSERT INTO public.moon VALUES (1, 1, 'Luna', 3474, 0, 0.073, 'rocky', true, true);
+INSERT INTO public.moon VALUES (2, 2, 'Europa', 3121.6, 1560, 0.013, 'icy', false, true);
+INSERT INTO public.moon VALUES (3, 3, 'Titan', 5150.0, 1378, 0.135, 'gaseous', true, false);
+INSERT INTO public.moon VALUES (4, 4, 'Ganymede', 5262.4, 2631, 0.025, 'rocky', true, true);
+INSERT INTO public.moon VALUES (5, 5, 'Callisto', 4820.6, 1880, 0.021, 'rocky', false, true);
+INSERT INTO public.moon VALUES (6, 6, 'Io', 3642.6, 1821, 0.017, 'volcanic', true, false);
+INSERT INTO public.moon VALUES (7, 1, 'Phobos', 22.4, 0, 0.0007, 'rocky', true, true);
+INSERT INTO public.moon VALUES (8, 2, 'Deimos', 12.4, 0, 0.0003, 'rocky', false, true);
+INSERT INTO public.moon VALUES (9, 3, 'Enceladus', 504.2, 0, 0.001, 'icy', true, false);
+INSERT INTO public.moon VALUES (10, 4, 'Rhea', 1527.6, 0, 0.020, 'icy', true, true);
+INSERT INTO public.moon VALUES (11, 5, 'Iapetus', 1469.0, 0, 0.011, 'rocky', false, true);
+INSERT INTO public.moon VALUES (12, 6, 'Miranda', 471.6, 0, 0.0003, 'rocky', true, false);
+INSERT INTO public.moon VALUES (13, 1, 'Triton', 2706.8, 0, 0.008, 'gaseous', true, true);
+INSERT INTO public.moon VALUES (14, 2, 'Charon', 1212.0, 0, 0.003, 'rocky', false, true);
+INSERT INTO public.moon VALUES (15, 3, 'Titania', 1577.8, 0, 0.007, 'icy', true, false);
+INSERT INTO public.moon VALUES (16, 4, 'Oberon', 1522.8, 0, 0.007, 'rocky', true, true);
+INSERT INTO public.moon VALUES (17, 5, 'Ariel', 1158.8, 0, 0.006, 'icy', false, true);
+INSERT INTO public.moon VALUES (18, 6, 'Umbriel', 1169.4, 0, 0.006, 'icy', true, false);
+INSERT INTO public.moon VALUES (19, 1, 'Ceres', 940, 0, 0.0009, 'rocky', true, true);
+INSERT INTO public.moon VALUES (20, 2, 'Vesta', 525, 0, 0.0004, 'rocky', false, true);
 
 --
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.planet VALUES (1, 1, 'planet1', 500, 750, 1500.75, 'solid', true, true);
-INSERT INTO public.planet VALUES (2, 2, 'planet2', 600, 850, 1600.50, 'gaseous', false, true);
-INSERT INTO public.planet VALUES (3, 3, 'planet3', 700, 950, 1700.25, 'liquid', true, false);
-INSERT INTO public.planet VALUES (4, 4, 'planet4', 800, 1050, 1800.00, 'solid', true, true);
-INSERT INTO public.planet VALUES (5, 5, 'planet5', 900, 1150, 1900.75, 'solid', false, true);
-INSERT INTO public.planet VALUES (6, 6, 'planet6', 1000, 1250, 2000.50, 'gaseous', true, false);
-INSERT INTO public.planet VALUES (7, 1, 'planet7', 500, 750, 1500.75, 'solid', true, true);
-INSERT INTO public.planet VALUES (8, 2, 'planet8', 600, 850, 1600.50, 'gaseous', false, true);
-INSERT INTO public.planet VALUES (9, 3, 'planet9', 700, 950, 1700.25, 'liquid', true, false);
-INSERT INTO public.planet VALUES (10, 4, 'planet10', 800, 1050, 1800.00, 'solid', true, true);
-INSERT INTO public.planet VALUES (11, 5, 'planet11', 900, 1150, 1900.75, 'solid', false, true);
-INSERT INTO public.planet VALUES (12, 6, 'planet12', 1000, 1250, 2000.50, 'gaseous', true, false);
-
+INSERT INTO public.planet VALUES (1, 1, 'Mercury', 4878, 0, 0.055, 'rocky', true, true);
+INSERT INTO public.planet VALUES (2, 2, 'Venus', 12104, 0, 0.815, 'rocky', false, true);
+INSERT INTO public.planet VALUES (3, 3, 'Earth', 12756, 0, 1.0, 'rocky', true, false);
+INSERT INTO public.planet VALUES (4, 4, 'Mars', 6792, 0, 0.107, 'rocky', true, true);
+INSERT INTO public.planet VALUES (5, 5, 'Jupiter', 142984, 0, 317.8, 'gaseous', false, true);
+INSERT INTO public.planet VALUES (6, 6, 'Saturn', 120536, 0, 95.2, 'gaseous', true, false);
+INSERT INTO public.planet VALUES (7, 1, 'Uranus', 50724, 0, 14.5, 'gaseous', true, true);
+INSERT INTO public.planet VALUES (8, 2, 'Neptune', 49244, 0, 17.1, 'gaseous', false, true);
+INSERT INTO public.planet VALUES (9, 3, 'Pluto', 2376, 0, 0.002, 'icy', true, false);
+INSERT INTO public.planet VALUES (10, 4, 'Eris', 2326, 0, 0.002, 'icy', true, true);
+INSERT INTO public.planet VALUES (11, 5, 'Haumea', 1960, 0, 0.0003, 'icy', false, true);
+INSERT INTO public.planet VALUES (12, 6, 'Makemake', 1420, 0, 0.0002, 'icy', true, false);
 
 --
 -- Data for Name: space_station; Type: TABLE DATA; Schema: public; Owner: freecodecamp
